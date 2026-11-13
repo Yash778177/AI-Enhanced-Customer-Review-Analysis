@@ -4,7 +4,7 @@ An NLP-based customer feedback analytics system that combines sentiment analysis
 
 ## 🎯 Problem Statement
 
-Businesses receive thousands of customer reviews but struggle to identify recurring complaints, customer satisfaction patterns, and areas requiring improvement. Manual analysis is time-consuming and traditional rating-based analysis often fails to capture the actual reasons behind customer dissatisfaction.
+Businesses receive thousands of customer reviews but struggle to identify recurring complaints, customer satisfaction patterns, and areas requiring improvement. Manual analysis is time-consuming, while traditional rating-based analysis often fails to capture the actual reasons behind customer dissatisfaction.
 
 ## ✨ Solution
 
@@ -12,7 +12,7 @@ This project uses Natural Language Processing (NLP) and data analytics to:
 
 - Analyze customer reviews using sentiment analysis.
 - Identify recurring customer concerns through topic extraction.
-- Categorize feedback into 5+ business-relevant categories.
+- Categorize feedback into business-relevant categories.
 - Visualize sentiment trends and customer feedback patterns.
 - Generate automated executive summaries.
 
@@ -26,7 +26,7 @@ This project uses Natural Language Processing (NLP) and data analytics to:
 
 ### 🤖 NLP-Based Topic Extraction
 - Automated extraction of customer concerns.
-- Categorization into 5+ customer concern categories.
+- Categorization into customer concern categories.
 - Identification of recurring feedback patterns.
 - Keyword-based topic identification.
 
@@ -45,7 +45,7 @@ This project uses Natural Language Processing (NLP) and data analytics to:
 | Data Processing | Pandas, NumPy |
 | NLP | NLTK, TextBlob |
 | Sentiment Analysis | VADER |
-| Topic Extraction | NLP, Keyword Matching |
+| Topic Extraction | Keyword Matching, NLP |
 | Visualization | Plotly, Matplotlib |
 | Dashboard | Streamlit |
 
@@ -61,7 +61,7 @@ This project uses Natural Language Processing (NLP) and data analytics to:
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/customer-insights-dashboard.git
+git clone https://github.com/Yash778177/customer-insights-dashboard.git
 cd customer-insights-dashboard
 ```
 
@@ -95,7 +95,7 @@ streamlit run app.py
 
 ## 📊 Project Workflow
 
-1. **Data Collection:** Load customer review dataset.
+1. **Data Collection:** Load the customer review dataset.
 2. **Data Preprocessing:** Handle missing values, duplicates and clean textual data.
 3. **Exploratory Data Analysis:** Analyze ratings, review distributions and patterns.
 4. **Sentiment Analysis:** Classify reviews into positive, negative and neutral categories.
@@ -115,7 +115,7 @@ The project focuses on identifying:
 
 ## 📸 Screenshots
 
-Add your actual project screenshots here.
+Add actual screenshots of your project in the screenshots folder.
 
 ### Dashboard Overview
 
@@ -162,7 +162,7 @@ customer-insights-dashboard/
 └── .gitignore
 ```
 
-*Adjust the structure according to your actual project files.*
+*Note: Adjust the project structure to match your actual files.*
 
 ## 🔮 Future Enhancements
 
@@ -181,14 +181,25 @@ customer-insights-dashboard/
 - **Business Analytics:** Make data-driven decisions.
 - **Marketing:** Understand customer preferences and feedback.
 
+## 🧪 Testing
+
+Verify that the application runs correctly:
+
+```bash
+python --version
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Open the local URL displayed in your terminal to access the dashboard.
+
 ## 👤 Author
 
 **Yash Mistry**
 
 B.Tech Undergraduate | IIT Kharagpur
 
-- GitHub: https://github.com/YOUR_USERNAME
-- LinkedIn: https://linkedin.com/in/YOUR_PROFILE
+- 🐙 GitHub: [Yash778177](https://github.com/Yash778177)
 
 ---
 
